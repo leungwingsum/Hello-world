@@ -1,0 +1,90 @@
+:root[data-theme="light"] {
+  --color-primary: #E8DED1;
+  --color-bg: #FAF8F5;
+  --color-accent: #C4A77D;
+  --color-text: #3D3A36;
+  --color-text-secondary: #6B6560;
+  --color-border: #E0D8D0;
+  --color-card: #FFFFFF;
+  --color-hover: #F5F2EF;
+  --color-overlay: rgba(61, 58, 54, 0.5);
+  --shadow-card: 0 2px 12px rgba(61, 58, 54, 0.08);
+  --shadow-hover: 0 8px 24px rgba(61, 58, 54, 0.12);
+}
+
+:root[data-theme="dark"] {
+  --color-primary: #2A2832;
+  --color-bg: #1A1820;
+  --color-accent: #9B8AA3;
+  --color-text: #E8E4ED;
+  --color-text-secondary: #A09AA8;
+  --color-border: #3A3840;
+  --color-card: #252330;
+  --color-hover: #323040;
+  --color-overlay: rgba(26, 24, 32, 0.7);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme="ink"] {
+  --color-primary: #1E2124;
+  --color-bg: #0F1112;
+  --color-accent: #7C8B8F;
+  --color-text: #D4D0C8;
+  --color-text-secondary: #8A8680;
+  --color-border: #2A2D30;
+  --color-card: #181B1C;
+  --color-hover: #242829;
+  --color-overlay: rgba(15, 17, 18, 0.85);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+:root {
+  --font-display: 'Noto Serif SC', 'Source Han Serif CN', serif;
+  --font-body: 'LXGW WenKai', 'Ma Shan Zheng', cursive;
+  --font-english: 'Cormorant Garamond', serif;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  --content-max-width: 720px;
+}
+
+:root[data-font-size="small"] {
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 22px;
+  --font-size-3xl: 28px;
+}
+
+:root[data-font-size="medium"] {
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 26px;
+  --font-size-3xl: 34px;
+}
+
+:root[data-font-size="large"] {
+  --font-size-base: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 30px;
+  --font-size-3xl: 40px;
+}
